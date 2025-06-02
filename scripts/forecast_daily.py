@@ -659,9 +659,6 @@ def predict_daily():
         # Jalankan prediksi extended 
         current_weather, extended_predictions = make_extended_daily_prediction(model, scaler, label_encoder)
         
-        # Simpan hasil ke JSON
-        save_daily_predictions_to_json(current_weather, extended_predictions)
-        
         # Format response
         response = {
             "status": "success",
