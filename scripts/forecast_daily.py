@@ -72,8 +72,8 @@ def find_model_files():
     ]
     
     required_files = {
-        "scaler": ["daily_scaler.pkl", "daily_scaler_rule4.pkl"],
-        "model": ["best_model_daily.h5", "best_model_rule4.h5"]
+        "scaler": ["daily_scaler.pkl"],
+        "model": ["best_model_daily.h5"]
     }
     
     found_files = {}
